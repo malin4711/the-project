@@ -1,0 +1,12 @@
+h3 {
+    display: inline-block;
+}
+
+div {
+    background-color: lightgray;
+    height: 50px;
+    width: 220px;
+    margin-top: 10px;
+    padding-left: 50px;
+    border-radius: 3%;
+}

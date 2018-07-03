@@ -1,0 +1,17 @@
+.theGreen {
+    background-color: lightseagreen;
+}
+
+.theRed {
+    background-color: lightcoral;
+}
+
+#box {
+    height: 200px;
+    width: 250px;
+    display: inline-block;
+    float: left;
+    border-radius: 4%;
+    margin-left: 5px;
+    padding: 5px;
+}

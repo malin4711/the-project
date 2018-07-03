@@ -1,0 +1,10 @@
+  <div [ngClass] = "{'theGreen':theActive(), 'theRed':!theActive()}" id = "box">
+  <h3>{{stock.symbol}}</h3>
+
+  <p>Last Traded Price: <span>{{stock.lastTradePriceOnly | currency}}</span></p>
+
+  <p>Change <span>{{stock.change | number:'1.1-4'}}</span></p>
+
+  <p>Change percentage <span>{{stock.changeInPercent | number:'1.1-4'}}</span></p>
+
+   </div>
